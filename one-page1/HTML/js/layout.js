@@ -148,7 +148,6 @@ var Layout = function () {
             });
         },
 
-        // To get the correct viewport width based on  http://andylangton.co.uk/articles/javascript/get-viewport-size-javascript/
         getViewPort: function() {
             var e = window,
                 a = 'inner';
