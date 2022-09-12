@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(void){
-  system("chcp 1251 > nul");
+  
   char first = 'A', last = 'Z';
   char x;
   int count;
@@ -14,7 +14,7 @@ int main(void){
   printf("Код последнего символа: %d\n", last);
   printf("Количество букв: %d\n", count);
   printf("Символ \'%c\' с кодом %d\n", x,x);
-  system("pause>null");
+  
   return 0; 
 
 }
